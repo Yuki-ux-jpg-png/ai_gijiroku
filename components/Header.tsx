@@ -8,13 +8,13 @@ export default function Header() {
           こころの居場所
         </Link>
 
-        <nav className="nav">
+        <nav className="nav" aria-label="メインナビゲーション">
           <Link href="/features">機能</Link>
           <Link href="/pricing">料金</Link>
           <Link href="/guide">利用開始</Link>
           <Link href="/faq">FAQ</Link>
           <Link href="/contact">お問い合わせ</Link>
-          <Link className="btn header-login" href="/login">
+          <Link className="login-link" href="/login">
             ログイン
           </Link>
         </nav>
