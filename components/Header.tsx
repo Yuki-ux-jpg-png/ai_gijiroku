@@ -1,1 +1,24 @@
-export default function Header(){return <header className="nav"><div className="container nav-inner"><a className="logo" href="/">こころの居場所</a><nav className="links"><a href="/features">機能</a><a href="/pricing">料金</a><a href="/guide">利用開始</a><a href="/faq">FAQ</a><a href="/contact">お問い合わせ</a><a className="btn secondary" href="/login">ログイン</a></nav></div></header>}
+import Link from 'next/link';
+
+export default function Header() {
+  return (
+    <header className="header">
+      <div className="header-inner">
+        <Link className="logo" href="/">
+          こころの居場所
+        </Link>
+
+        <nav className="nav" aria-label="メインナビゲーション">
+          <Link href="/features">機能</Link>
+          <Link href="/pricing">料金</Link>
+          <Link href="/guide">利用開始</Link>
+          <Link href="/faq">FAQ</Link>
+          <Link href="/contact">お問い合わせ</Link>
+          <Link className="btn header-login" href="/login">
+            ログイン
+          </Link>
+        </nav>
+      </div>
+    </header>
+  );
+}
