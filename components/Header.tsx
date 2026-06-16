@@ -8,7 +8,7 @@ export default function Header() {
           こころの居場所
         </Link>
 
-        <nav className="nav" aria-label="メインナビゲーション">
+        <nav className="nav">
           <Link href="/features">機能</Link>
           <Link href="/pricing">料金</Link>
           <Link href="/guide">利用開始</Link>
