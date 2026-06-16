@@ -9,7 +9,9 @@ export default function Home() {
             <p className="badge">BtoB・BtoC 対応のAI議事録サービス</p>
 
             <h1>
-              会議も、面談も、個人の記録も。
+              会議も、面談も、
+              <br />
+              個人の記録も。
               <br />
               音声から議事録をすばやく作成。
             </h1>
