@@ -1,0 +1,1 @@
+export default function Login(){return <main className="section"><div className="container"><div className="card" style={{maxWidth:560,margin:'auto'}}><h1>ログイン</h1><p className="muted">この雛形ではデモログインを用意しています。本番では Google OAuth、Supabase Auth、NextAuth などに差し替えてください。</p><a className="btn" href="/dashboard">デモログインして利用する</a></div></div></main>}

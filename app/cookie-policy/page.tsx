@@ -1,0 +1,1 @@
+export default function Page(){return <main className="section"><div className="container"><div className="card"><h1>Cookieポリシー</h1><p className="muted">ログイン状態の維持、アクセス解析、決済連携、セキュリティ確保のためCookieを使用する場合があります。解析ツール導入時は利用ツール名を追記してください。</p></div></div></main>}

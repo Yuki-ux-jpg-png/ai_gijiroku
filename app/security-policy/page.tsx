@@ -1,0 +1,1 @@
+export default function Page(){return <main className="section"><div className="container"><div className="card"><h1>セキュリティポリシー</h1><p className="muted">通信の暗号化、APIキーの環境変数管理、アクセス制御、最小限のデータ保存を基本方針とします。音声データは不要になり次第削除する運用を推奨します。</p></div></div></main>}

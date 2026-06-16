@@ -1,0 +1,1 @@
+export default function Page(){return <main className="section"><div className="container"><div className="card"><h1>サービス利用画面のスクリーンショット</h1><p className="muted">実際の利用画面イメージです。公開時は本番画面のスクリーンショットに差し替えてください。</p><div className="cards"><div className="shot">アップロード画面</div><div className="shot">AI処理結果</div><div className="shot">タスク一覧</div></div></div></div></main>}

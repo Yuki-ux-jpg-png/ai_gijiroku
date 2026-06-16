@@ -1,0 +1,1 @@
+export default function Header(){return <header className="nav"><div className="container nav-inner"><a className="logo" href="/">こころの居場所</a><nav className="links"><a href="/features">機能</a><a href="/pricing">料金</a><a href="/guide">利用開始</a><a href="/faq">FAQ</a><a href="/contact">お問い合わせ</a><a className="btn secondary" href="/login">ログイン</a></nav></div></header>}

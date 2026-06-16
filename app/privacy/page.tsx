@@ -1,0 +1,1 @@
+export default function Page(){return <main className="section"><div className="container"><div className="card"><h1>プライバシーポリシー</h1><p className="muted">取得する情報は、メールアドレス、決済に必要な情報、アップロードされた音声、生成結果、問い合わせ内容です。サービス提供、本人確認、請求、サポート、品質改善のために利用します。</p></div></div></main>}

@@ -1,0 +1,1 @@
+export default function Page(){return <main className="section"><div className="container"><div className="card"><h1>利用規約</h1><p className="muted">本サービスの利用条件を定めます。利用者は法令に反する音声、第三者の権利を侵害する音声、同意なく取得した音声をアップロードしてはいけません。</p></div></div></main>}

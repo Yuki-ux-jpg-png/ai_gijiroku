@@ -1,0 +1,1 @@
+export default function Page(){return <main className="section"><div className="container"><div className="card"><h1>機能紹介ページ</h1><p className="muted">音声アップロード、AI文字起こし、要約生成、タスク抽出、履歴保存を提供します。会議後の記録作業を短縮するためのSaaSです。</p></div></div></main>}

@@ -1,0 +1,1 @@
+export default function Page(){return <main className="section"><div className="container"><div className="card"><h1>導入事例・利用例</h1><p className="muted">個人事業、オンライン面談、チーム定例、顧客ヒアリング、授業メモなどで利用できます。公開前のため掲載事例はサンプルです。</p></div></div></main>}

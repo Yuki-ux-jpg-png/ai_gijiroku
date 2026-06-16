@@ -1,0 +1,1 @@
+export default function Page(){return <main className="section"><div className="container"><div className="card"><h1>利用可能な支払方法の説明</h1><p className="muted">Stripe Checkout を通じたクレジットカード決済に対応する想定です。対応ブランドや決済方法は Stripe の設定に依存します。</p></div></div></main>}

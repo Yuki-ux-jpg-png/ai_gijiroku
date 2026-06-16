@@ -1,0 +1,1 @@
+export default function Page(){return <main className="section"><div className="container"><div className="card"><h1>FAQ</h1><p className="muted">Q. 月額50円ですか？ A. はい、基本プランは月額50円です。Q. 音声は保存されますか？ A. 本雛形ではブラウザ保存です。本番運用時は保存方針を明示してください。</p></div></div></main>}

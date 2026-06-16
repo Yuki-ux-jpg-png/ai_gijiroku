@@ -1,0 +1,1 @@
+export default function Cancel(){return <main className="section"><div className="container card"><h1>決済をキャンセルしました</h1><p className="muted">お申し込みは完了していません。いつでも料金ページから再開できます。</p><a className="btn" href="/pricing">料金ページへ戻る</a></div></main>}

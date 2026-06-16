@@ -1,0 +1,1 @@
+export default function Page(){return <main className="section"><div className="container"><div className="card"><h1>データ削除ポリシー</h1><p className="muted">利用者は問い合わせページから、アカウント情報、アップロード音声、生成結果の削除を依頼できます。本人確認後、合理的な期間内に対応します。</p></div></div></main>}

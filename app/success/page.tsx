@@ -1,0 +1,1 @@
+export default function Success(){return <main className="section"><div className="container card"><h1>お申し込みありがとうございます</h1><p className="muted">決済が完了しました。ダッシュボードからAI議事録作成を開始できます。</p><a className="btn" href="/dashboard">利用画面へ</a></div></main>}

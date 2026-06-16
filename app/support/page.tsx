@@ -1,0 +1,1 @@
+export default function Page(){return <main className="section"><div className="container"><div className="card"><h1>サポートページ</h1><p className="muted">不具合、請求、解約、データ削除に関するお問い合わせを受け付けます。原則としてメールにて返信します。</p></div></div></main>}

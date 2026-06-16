@@ -1,0 +1,1 @@
+export default function Page(){return <main className="section"><div className="container"><div className="card"><h1>解約・キャンセルポリシー</h1><p className="muted">月額契約はいつでも解約できます。解約後は次回更新日以降の請求が停止されます。決済完了後の当月分キャンセルは返金ポリシーに従います。</p></div></div></main>}

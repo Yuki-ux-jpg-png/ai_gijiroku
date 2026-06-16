@@ -1,0 +1,1 @@
+export default function Page(){return <main className="section"><div className="container"><div className="card"><h1>利用開始ガイド</h1><p className="muted">1. アカウント作成 2. 料金プラン申し込み 3. 音声アップロード 4. AI処理結果の確認 5. 必要に応じてコピー・保存、の順で利用します。</p></div></div></main>}

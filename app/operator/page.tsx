@@ -1,0 +1,1 @@
+export default function Page(){return <main className="section"><div className="container"><div className="card"><h1>運営者情報</h1><p className="muted">こころの居場所は、個人事業主が運営するAI議事録作成サービスです。法人設立前のため、会社概要ではなく運営者情報として掲載します。</p></div></div></main>}

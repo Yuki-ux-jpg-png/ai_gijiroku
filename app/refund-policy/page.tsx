@@ -1,0 +1,1 @@
+export default function Page(){return <main className="section"><div className="container"><div className="card"><h1>返金ポリシー</h1><p className="muted">デジタルサービスの性質上、利用開始後の返金は原則行いません。ただし重複課金、システム障害による利用不能など、運営者が必要と判断した場合は個別に対応します。</p></div></div></main>}

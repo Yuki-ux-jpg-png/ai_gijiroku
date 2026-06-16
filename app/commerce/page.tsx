@@ -1,0 +1,1 @@
+export default function Page(){return <main className="section"><div className="container"><div className="card"><h1>特定商取引法に基づく表記</h1><p className="muted">販売事業者：個人事業主。屋号：こころの居場所。運営者名、所在地、電話番号、メールアドレスは公開前に必ず正しい内容へ差し替えてください。販売価格は月額50円です。</p></div></div></main>}
