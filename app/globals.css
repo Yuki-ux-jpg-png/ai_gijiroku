@@ -26,30 +26,37 @@ a {
 }
 
 .header {
-  background: rgba(255, 250, 242, 0.92);
+  background: rgba(255, 250, 242, 0.96);
   border-bottom: 1px solid var(--line);
 }
 
 .header-inner {
   max-width: 1120px;
   margin: 0 auto;
-  padding: 18px 24px;
+  padding: 14px 24px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 16px;
+  gap: 24px;
 }
 
 .logo {
   font-weight: 800;
-  font-size: 20px;
+  font-size: 22px;
+  white-space: nowrap;
 }
 
 .nav {
   display: flex;
+  align-items: center;
   gap: 18px;
-  flex-wrap: wrap;
-  font-size: 14px;
+  font-size: 15px;
+  white-space: nowrap;
+}
+
+.nav .btn,
+.header .btn {
+  padding: 10px 18px;
 }
 
 .container {
@@ -235,6 +242,10 @@ textarea {
   .header-inner {
     align-items: flex-start;
     flex-direction: column;
+  }
+
+  .nav {
+    white-space: normal;
   }
 
   .card {
