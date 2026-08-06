@@ -1,11 +1,12 @@
 type LoginPageProps = {
-  searchParams?: {
-    paid?: string;
-  };
+  searchParams: Promise<{
+    paid?: string | string[];
+  }>;
 };
 
-export default function Login({ searchParams }: LoginPageProps) {
-  const isPaid = searchParams?.paid === '1';
+export default async function Login({ searchParams }: LoginPageProps) {
+  const { paid } = await searchParams;
+  const isPaid = Array.isArray(paid) ? paid.includes('1') : paid === '1';
 
   if (!isPaid) {
     return (
