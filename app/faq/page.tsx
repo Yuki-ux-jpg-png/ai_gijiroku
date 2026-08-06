@@ -7,7 +7,7 @@ export default function Page() {
 
           <div className="mini" style={{ marginTop: 24 }}>
             <h3>Q. 利用料金はいくらですか？</h3>
-            <p className="muted">A. 基本プランは月額50円です。</p>
+            <p className="muted">A. 基本プランは月額0円です。</p>
           </div>
 
           <div className="mini" style={{ marginTop: 18 }}>

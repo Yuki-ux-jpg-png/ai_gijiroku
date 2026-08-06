@@ -18,7 +18,7 @@ export default function Login({ searchParams }: LoginPageProps) {
             </p>
             <form action="/api/create-checkout-session" method="POST">
               <button className="btn" type="submit">
-                月額50円で利用を開始する
+                月額0円で利用を開始する
               </button>
             </form>
           </div>

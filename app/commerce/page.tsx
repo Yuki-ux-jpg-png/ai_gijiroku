@@ -25,7 +25,7 @@ export default function Page() {
             <dd>お問い合わせページよりご連絡ください。</dd>
 
             <dt>販売価格</dt>
-            <dd>月額50円</dd>
+            <dd>月額0円</dd>
 
             <dt>商品代金以外の必要料金</dt>
             <dd>

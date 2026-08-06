@@ -5,7 +5,7 @@ export default function Pricing() {
         <div>
           <h1 className="h1">料金ページ</h1>
           <p className="lead">
-            個人でも始めやすい月額50円プランと、機能を大幅に強化した月額1万円プランをご用意しています。
+            個人でも始めやすい月額0円プランと、機能を大幅に強化した月額1万円プランをご用意しています。
           </p>
         </div>
 
@@ -13,7 +13,7 @@ export default function Pricing() {
           <div className="card">
             <p className="badge">ベーシック</p>
             <div className="price">
-              50円<span style={{ fontSize: 18 }}> / 月</span>
+              0円<span style={{ fontSize: 18 }}> / 月</span>
             </div>
             <p className="muted">
               AI文字起こし、要約生成、タスク抽出を気軽に試せる基本プランです。
@@ -25,12 +25,11 @@ export default function Pricing() {
               <li>タスク抽出</li>
             </ul>
 
-            <a
-              className="btn"
-              href="https://buy.stripe.com/5kQaEXbEcci505s95m6c003"
-            >
-              50円プランで申し込む
-            </a>
+            <form action="/api/create-checkout-session" method="POST">
+              <button className="btn" type="submit">
+                0円プランで申し込む
+              </button>
+            </form>
 
             <p className="muted small">
               決済はStripeの決済ページで安全に処理されます。

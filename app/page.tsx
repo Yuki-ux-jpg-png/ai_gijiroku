@@ -23,12 +23,11 @@ export default function Home() {
             </p>
 
             <div className="actions">
-              <Link
-                className="btn"
-                href="https://buy.stripe.com/5kQaEXbEcci505s95m6c003"
-              >
-                月額50円で利用を開始する
-              </Link>
+              <form action="/api/create-checkout-session" method="POST">
+                <button className="btn" type="submit">
+                  月額0円で利用を開始する
+                </button>
+              </form>
               <Link className="btn secondary" href="/pricing">
                 料金プランを見る
               </Link>
