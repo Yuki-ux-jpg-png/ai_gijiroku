@@ -14,7 +14,8 @@
     "openai": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "stripe": "latest"
+    "stripe": "latest",
+    "@clerk/nextjs": "latest"
   },
   "devDependencies": {
     "@types/node": "latest",
