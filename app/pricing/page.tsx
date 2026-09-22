@@ -5,7 +5,7 @@ export default function Pricing() {
         <div>
           <h1 className="h1">料金ページ</h1>
           <p className="lead">
-            個人でも始めやすい月額0円プランと、機能を大幅に強化した月額1万円プランをご用意しています。
+            個人でも始めやすい月額0円プランと、最初の数か月を月額50円で試せるプレミアムプランをご用意しています。
           </p>
         </div>
 
@@ -38,9 +38,15 @@ export default function Pricing() {
 
           <div className="card">
             <p className="badge">プレミアム</p>
-            <div className="price">
-              10,000円<span style={{ fontSize: 18 }}> / 月</span>
+            <p className="muted small" style={{ marginBottom: 4 }}>
+              最初の数か月
+            </p>
+            <div className="price" style={{ marginTop: 4 }}>
+              50円<span style={{ fontSize: 18 }}> / 月</span>
             </div>
+            <p className="muted" style={{ marginTop: -4, fontWeight: 700 }}>
+              その後は 3,500円 / 月
+            </p>
             <p className="muted">
               機能が大幅に向上し、多言語対応や高精度な議事録作成を利用できる上位プランです。
             </p>
@@ -53,11 +59,11 @@ export default function Pricing() {
             </ul>
 
             <a className="btn secondary" href="/contact">
-              1万円プランについて問い合わせる
+              プレミアムについて問い合わせる
             </a>
 
             <p className="muted small">
-              利用内容に応じて、対応言語や利用条件をご案内します。
+              最初の数か月は月額50円、その後は月額3,500円です。対応言語や利用条件をご案内します。
             </p>
           </div>
         </div>
