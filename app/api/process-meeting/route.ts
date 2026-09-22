@@ -1,9 +1,15 @@
 import OpenAI from 'openai';
 import { NextResponse } from 'next/server';
+import { auth } from '@clerk/nextjs/server';
 
 export const runtime = 'nodejs';
 
 export async function POST(req: Request) {
+  const { isAuthenticated } = await auth();
+  if (!isAuthenticated) {
+    return NextResponse.json({ error: 'ログインが必要です。' }, { status: 401 });
+  }
+
   try {
     const apiKey = process.env.OPENAI_API_KEY;
     if (!apiKey) return NextResponse.json({ error: 'OPENAI_API_KEY が未設定です。' }, { status: 500 });
