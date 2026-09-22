@@ -26,6 +26,7 @@ export default function Pricing() {
             </ul>
 
             <form action="/api/create-checkout-session" method="POST">
+              <input type="hidden" name="plan" value="basic" />
               <button className="btn" type="submit">
                 0円プランで申し込む
               </button>
@@ -58,9 +59,12 @@ export default function Pricing() {
               <li>ビジネス利用・海外との会議に対応</li>
             </ul>
 
-            <a className="btn secondary" href="/contact">
-              プレミアムについて問い合わせる
-            </a>
+            <form action="/api/create-checkout-session" method="POST">
+              <input type="hidden" name="plan" value="premium" />
+              <button className="btn secondary" type="submit">
+                50円でプレミアムを申し込む
+              </button>
+            </form>
 
             <p className="muted small">
               最初の数か月は月額50円、その後は月額3,500円です。対応言語や利用条件をご案内します。
