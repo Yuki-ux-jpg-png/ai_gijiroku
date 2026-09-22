@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { SignedIn, SignedOut, UserButton } from '@clerk/nextjs';
+import { Show, UserButton } from '@clerk/nextjs';
 
 export default function Header() {
   return (
@@ -15,15 +15,15 @@ export default function Header() {
           <Link href="/guide">利用開始</Link>
           <Link href="/faq">FAQ</Link>
           <Link href="/contact">お問い合わせ</Link>
-          <SignedOut>
+          <Show when="signed-out">
             <Link className="login-link" href="/login">
               ログイン
             </Link>
-          </SignedOut>
-          <SignedIn>
+          </Show>
+          <Show when="signed-in">
             <Link href="/dashboard">議事録作成</Link>
             <UserButton />
-          </SignedIn>
+          </Show>
         </nav>
       </div>
     </header>
