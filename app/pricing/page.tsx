@@ -1,73 +1,59 @@
+import Link from 'next/link';
+
 export default function Pricing() {
   return (
     <main className="section">
       <div className="container">
         <div>
-          <h1 className="h1">料金ページ</h1>
+          <h1 className="h1">料金</h1>
           <p className="lead">
-            個人でも始めやすい月額0円プランと、最初の数か月を月額50円で試せるプレミアムプランをご用意しています。
+            料金プランは1つだけです。お申し込みから最初の3か月は月額0円、
+            4か月目以降は月額3,500円（税込）でご利用いただけます。
           </p>
         </div>
 
         <div className="grid cards" style={{ marginTop: 32 }}>
           <div className="card">
-            <p className="badge">ベーシック</p>
-            <div className="price">
+            <p className="badge">月額プラン</p>
+            <p className="muted small" style={{ marginBottom: 4 }}>
+              お申し込みから最初の3か月
+            </p>
+            <div className="price" style={{ marginTop: 4 }}>
               0円<span style={{ fontSize: 18 }}> / 月</span>
             </div>
-            <p className="muted">
-              AI文字起こし、要約生成、タスク抽出を気軽に試せる基本プランです。
+            <p className="muted" style={{ marginTop: 4, fontWeight: 700 }}>
+              4か月目以降は 3,500円（税込） / 月
             </p>
+
+            <p className="muted">
+              AIによる文字起こし、要約生成、タスク抽出などの機能をご利用いただけます。
+            </p>
+
             <ul>
               <li>音声アップロード</li>
               <li>AI文字起こし</li>
               <li>要約生成</li>
               <li>タスク抽出</li>
-            </ul>
-
-            <form action="/api/create-checkout-session" method="POST">
-              <input type="hidden" name="plan" value="basic" />
-              <button className="btn" type="submit">
-                0円プランで申し込む
-              </button>
-            </form>
-
-            <p className="muted small">
-              決済はStripeの決済ページで安全に処理されます。
-            </p>
-          </div>
-
-          <div className="card">
-            <p className="badge">プレミアム</p>
-            <p className="muted small" style={{ marginBottom: 4 }}>
-              最初の数か月
-            </p>
-            <div className="price" style={{ marginTop: 4 }}>
-              50円<span style={{ fontSize: 18 }}> / 月</span>
-            </div>
-            <p className="muted" style={{ marginTop: -4, fontWeight: 700 }}>
-              その後は 3,500円 / 月
-            </p>
-            <p className="muted">
-              機能が大幅に向上し、多言語対応や高精度な議事録作成を利用できる上位プランです。
-            </p>
-            <ul>
-              <li>多言語の文字起こし対応</li>
-              <li>多言語の要約生成</li>
-              <li>より高精度なタスク抽出</li>
+              <li>多言語の文字起こし・要約</li>
               <li>長時間音声への対応</li>
-              <li>ビジネス利用・海外との会議に対応</li>
             </ul>
 
             <form action="/api/create-checkout-session" method="POST">
-              <input type="hidden" name="plan" value="premium" />
-              <button className="btn secondary" type="submit">
-                50円でプレミアムを申し込む
+              <button className="btn" type="submit">
+                最初の3か月0円で申し込む
               </button>
             </form>
 
             <p className="muted small">
-              最初の数か月は月額50円、その後は月額3,500円です。対応言語や利用条件をご案内します。
+              最初の3か月は0円です。4か月目以降は月額3,500円（税込）で継続します。
+              いつでも解約できます。
+            </p>
+
+            <p className="muted small">
+              お申し込み前に
+              <Link href="/terms">利用規約</Link>、
+              <Link href="/cancel-policy">解約・キャンセルポリシー</Link>、
+              <Link href="/commerce">特定商取引法に基づく表記</Link>をご確認ください。
             </p>
           </div>
         </div>

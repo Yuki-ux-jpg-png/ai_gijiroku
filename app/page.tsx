@@ -19,17 +19,17 @@ export default function Home() {
             <p className="lead">
               こころの居場所は、企業・個人事業主・個人利用のすべてに対応したAI議事録作成サービスです。
               会議音声をアップロードするだけで、AIが文字起こし、要約、タスク抽出を行います。
-              上位プランでは、多言語対応や高精度な要約など、より高度な機能も利用できます。
+              多言語対応や要約、タスク抽出など、議事録作成に必要な機能を利用できます。
             </p>
 
             <div className="actions">
               <form action="/api/create-checkout-session" method="POST">
                 <button className="btn" type="submit">
-                  月額0円で利用を開始する
+                  最初の3か月0円で利用を開始する
                 </button>
               </form>
               <Link className="btn secondary" href="/pricing">
-                料金プランを見る
+                料金を見る
               </Link>
             </div>
           </div>
@@ -81,9 +81,9 @@ export default function Home() {
             </div>
 
             <div className="card">
-              <h3>上位プランで多言語にも対応</h3>
+              <h3>多言語にも対応</h3>
               <p>
-                プレミアムプランは最初の数か月を月額50円で利用でき、その後は月額3,500円です。多言語の文字起こしや要約にも対応できます。
+                お申し込みから最初の3か月は月額0円、4か月目以降は月額3,500円（税込）です。多言語の文字起こしや要約にも対応できます。
                 海外との打ち合わせや外国語インタビューにも活用できます。
               </p>
             </div>
