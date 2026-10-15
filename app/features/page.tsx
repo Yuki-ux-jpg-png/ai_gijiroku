@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function Page() {
   return (
     <main className="section">
@@ -38,6 +40,11 @@ export default function Page() {
             <p className="muted">
               作成した議事録を後から確認できるようにし、過去の会議内容を振り返りやすくします。
             </p>
+          </div>
+          <div className="actions">
+            <Link className="btn secondary" href="/screenshots">
+              実際の画面構成・議事録サンプルを見る
+            </Link>
           </div>
         </div>
       </div>
