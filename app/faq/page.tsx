@@ -15,7 +15,7 @@ export default function Page() {
           <div className="mini" style={{ marginTop: 18 }}>
             <h3>Q. 無料期間中に解約できますか？</h3>
             <p className="muted">
-              A. はい。いつでも解約できます。4か月目の請求日前までに解約した場合、以後の請求は発生しません。
+              A. 解約はお問い合わせ窓口で受け付けます。4か月目の請求日前までに解約処理が完了した場合、その後の月額料金は発生しません。
             </p>
           </div>
 
@@ -36,7 +36,7 @@ export default function Page() {
           <div className="mini" style={{ marginTop: 18 }}>
             <h3>Q. いつでも解約できますか？</h3>
             <p className="muted">
-              A. はい。次回請求日前までに解約手続きを行うことで、以後の請求を停止できます。
+              A. 解約希望はいつでも申し出ることができます。サイト内での自動解約には未対応のため、運営者に連絡し、処理完了をご確認ください。
             </p>
           </div>
 

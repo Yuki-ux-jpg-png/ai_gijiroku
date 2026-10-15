@@ -8,7 +8,11 @@ const links = [
   ['/security-policy', 'セキュリティ'],
   ['/data-deletion-policy', 'データ削除'],
   ['/payment-methods', '支払方法'],
-  ['/support', 'サポート']
+  ['/support', 'サポート'],
+  ['/contact', 'お問い合わせ'],
+  ['/account', '契約・請求のご案内'],
+  ['/cancel-policy', '解約ポリシー'],
+  ['/refund-policy', '返金ポリシー']
 ];
 
 export default function Footer() {

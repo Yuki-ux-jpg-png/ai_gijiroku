@@ -46,14 +46,15 @@ export default function Pricing() {
 
             <p className="muted small">
               最初の3か月は0円です。4か月目以降は月額3,500円（税込）で継続します。
-              いつでも解約できます。
+              解約希望はいつでもお申し出いただけます。運営者による手続きが必要です。
             </p>
 
             <p className="muted small">
               お申し込み前に
               <Link href="/terms">利用規約</Link>、
               <Link href="/cancel-policy">解約・キャンセルポリシー</Link>、
-              <Link href="/commerce">特定商取引法に基づく表記</Link>をご確認ください。
+              <Link href="/commerce">特定商取引法に基づく表記</Link>、
+              <Link href="/contact">お問い合わせ窓口</Link>をご確認ください。
             </p>
           </div>
         </div>

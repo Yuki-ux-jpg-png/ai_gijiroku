@@ -27,7 +27,7 @@ export default function Page() {
             </dd>
 
             <dt>お問い合わせ</dt>
-            <dd>お問い合わせページよりご連絡ください。</dd>
+            <dd>お問い合わせページに記載の連絡先へご連絡ください。</dd>
           </dl>
         </div>
       </div>
